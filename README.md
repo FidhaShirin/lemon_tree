@@ -2,7 +2,6 @@
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(7,6,5,4,3,2);   //defining lcd pins
-
 int value=0; //initializing variables
 float volts=0.0; 
 float temp=0.0;
