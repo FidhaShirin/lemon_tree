@@ -1,0 +1,6 @@
+language: c  
+sudo: false # only for faster builds  
+compiler: gcc
+script:  
+   - gcc -o prime_check prime_check.c  
+   - ./prime_check 
